@@ -149,7 +149,7 @@ def game ():
         win_condition = winning_and_losing()
 
         if win_condition == 'game over':
-            print ('GAME OVER!!!! the word is %s' % word) 
+            print ('GAME OVER!!!! the word is %s' % word)
             new_game = input('do you want to play again [y/n]')
             if new_game == 'y':
                 game()
@@ -157,7 +157,7 @@ def game ():
                 print('thanks for playing good bye')
                 sleep(1)
                 break
-            
+
         elif win_condition == 'win':
             print('YOU WIN!!!!!! the word is %s' % word)
             new_game = input('do you want to play again [y/n]')
@@ -167,5 +167,5 @@ def game ():
                 print('thanks for playing good bye')
                 sleep(1)
                 break
-    
-game ()        
+
+game ()
